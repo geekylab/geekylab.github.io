@@ -1,0 +1,11 @@
+# Site settings
+title: Geeky Lab
+email: johnathan@kodokux.com
+description: Geeky lab
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://geekylab.net" # the base hostname & protocol for your site
+twitter_username: geekylab
+github_username:  geekylab
+
+# Build settings
+markdown: kramdown
