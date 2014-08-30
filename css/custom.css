@@ -1,0 +1,46 @@
+/*
+*   Custom Styling
+*/
+#about {
+    max-width: 100%;
+    min-width: 100%;
+    height: auto;
+    text-align: center;
+    color: #fff;
+    background: url(../img/about-bg.jpg) no-repeat top center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+
+    padding: 150px 40px 250px 40px;
+}
+
+.about-us {
+    position: relative;
+    max-width: 90%;
+    margin: auto;
+}
+
+.about-us img {
+    max-width: 300px;
+    margin-bottom: 15px;
+    box-shadow: 1px 1px 40px #080808;
+}
+
+#about h1 {
+    font-size: 40px;
+    text-shadow: 2px 2px 5px #080808 !important;
+}
+
+.about-us h2 {
+    margin-bottom: 0;
+    text-shadow: 1px 1px 10px #080808 !important;
+}
+
+.about-us h3 {
+    font-size: 20px;
+    font-weight: 100;
+    text-shadow: 0 0 10px #080808 !important;
+}
