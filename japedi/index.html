@@ -1,0 +1,414 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Japedi - Garçom digital.</title>
+    <link href="css/bootstrap.css" rel='stylesheet' type='text/css'/>
+    <link href="css/bootstrap.min.css" rel='stylesheet' type='text/css'/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Custom files -->
+    <link href="css/style.css" rel='stylesheet' type='text/css'/>
+    <!-- Custom  files -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="application/x-javascript"> addEventListener("load", function () {
+        setTimeout(hideURLbar, 0);
+    }, false);
+    function hideURLbar() {
+        window.scrollTo(0, 1);
+    } </script>
+    <!----webfonts---->
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900|Raleway:400,100,300,500,600,700,800,900,200'
+          rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,100,300,500,600,700,800,900,200' rel='stylesheet'
+          type='text/css'>
+    <!----//webfonts---->
+</head>
+<body>
+<!----wrap---->
+<div class="top-bannar" id="move-top">
+    <div class="container">
+        <div class="top-header row">
+            <!---logo--->
+            <!--<div id="sb-search" class="sb-search">-->
+                <!--<form>-->
+                    <!--<input type="text" class="sb-search-input" id="search" value="Search..." onfocus="this.value = '';"-->
+                           <!--onblur="if (this.value == '') {this.value = 'Search...';}">-->
+                    <!--<input class="sb-search-submit" type="submit" value="">-->
+                    <!--<span class="sb-icon-search"> </span>-->
+                <!--</form>-->
+            <!--</div>-->
+            <script src="js/classie.js"></script>
+            <script src="js/uisearch.js"></script>
+            <script>
+                new UISearch(document.getElementById('sb-search'));
+            </script>
+            <!---//logo--->
+            <!--&lt;!&ndash;top-nav--&ndash;&gt;-->
+            <!--<div class="top-nav">-->
+                <!--<div class="nav-icon">-->
+                    <!--<a href="#" class="right_bt" id="activator"><span> </span> </a>-->
+                <!--</div>-->
+                <!--<div class="box" id="box">-->
+                    <!--<div class="box_content">-->
+                        <!--<div class="box_content_center">-->
+                            <!--<div class="form_content">-->
+                                <!--<div class="menu_box_list">-->
+                                    <!--<ul>-->
+                                        <!--<li><a href="#home"><span>home</span></a></li>-->
+                                        <!--<li><a href="#features"><span>Features</span></a></li>-->
+                                        <!--<li><a href="#works"><span>Works</span></a></li>-->
+                                        <!--<li><a href="#gallery"><span>Gallery</span></a></li>-->
+                                        <!--<li><a href="#testimonials"><span>Testimonials</span></a></li>-->
+                                        <!--<li><a href="#contact"><span>Contact</span></a></li>-->
+                                        <!--<div class="clearfix"></div>-->
+                                    <!--</ul>-->
+                                <!--</div>-->
+                                <!--<a class="boxclose" id="boxclose"> <span> </span></a>-->
+                            <!--</div>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
+            <!--&lt;!&ndash;-start-click-drop-down-menu---&ndash;&gt;-->
+            <!----start-dropdown--->
+            <script type="text/javascript">
+                var $ = jQuery.noConflict();
+                $(function () {
+                    $('#activator').click(function () {
+                        $('#box').animate({'top': '0px'}, 900);
+                    });
+                    $('#boxclose').click(function () {
+                        $('#box').animate({'top': '-1000px'}, 900);
+                    });
+                });
+                $(document).ready(function () {
+                    //Hide (Collapse) the toggle containers on load
+                    $(".toggle_container").hide();
+                    //Switch the "Open" and "Close" state per click then slide up/down (depending on open/close state)
+                    $(".trigger").click(function () {
+                        $(this).toggleClass("active").next().slideToggle("slow");
+                        return false; //Prevent the browser jump to the link anchor
+                    });
+
+                });
+            </script>
+            <!---//End-click-drop-down-menu----->
+            <!--top-nav---->
+            <div class="clear"></div>
+            <!---header-welcomenote--->
+            <div class="col-md-12 header-welcome-note">
+                <div class=" col-md-6 welcome-note-left">
+                    <span class="divice12"><img src="images/japedi-cart-resize.png" alt=""/></span>
+
+                    <h1><a href="#">Japedi</a></h1>
+
+                    <p>Contrate o seu garçom digital.</p>
+
+                    <!--<ul class="button">-->
+                        <!--<li><a href="#">Saiba mais</a></li>-->
+                    <!--</ul>-->
+                </div>
+                <div class="col-md-6 welcome-note-right">
+                    <img src="images/japedi-cart-resize.png" alt=""/>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <!---//header-welcomenote--->
+        </div>
+    </div>
+</div>
+<!---start-content--->
+<div class=" features" id="features">
+    <div class="row superb-feature">
+        <h2>Esta chegando o seu garçom digital.</h2>
+
+        <p>Com o seu cliente fazendo o pedido pelo próprio smartphone dele,
+            Evite erro desnecessário do garçom, aumenta a produtividade do seu pedido tenha a
+            estatísticas de seu cliente para melhorar o seu negócio.</p>
+    </div>
+</div>
+<div class="works" id="works">
+    <!----start-works---->
+    <div class="content_top">
+        <div class="container">
+            <div class="row content_main">
+                <div class="app_img col-md-5">
+                    <img src="images/japedi-sent-resize.png" alt="">
+                </div>
+                <div class="app_desc img col-md-7">
+                    <h3>Aumentar a produtividade do pedido</h3>
+
+                    <p>Com o Japedi. Não precisa mais esperar o garçom para fazer o pedido.</p>
+
+                    <p>Logo que o cliente sentar na mesa e ser autenticado pelo restaurante, ele poderá fazer o pedido
+                        por conta própria.</p>
+
+                    <p>Pelo smartphone do cliente mesmo!</p>
+
+                    <p>Não é mais preciso ter um gasto enorme colocando um tablet em cada mesa do seu restaurante, para
+                        ter um cardápio digital.</p>
+
+                    <p>Com isso o garçom pode prestar mais atenção no clientes. e melhor o atendimento do seu
+                        restaurante.</p>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+    <div class="content_bottom">
+        <div class="container ">
+            <div class=" row devices- main">
+                <div class=" col-md-7 devices_desc">
+                    <h3>Redusa o seu custo.</h3>
+
+                    <p>Em horário de pico.<br/> Não é mais preciso contratar garçom para conseguir atender a demanda.
+                    </p>
+
+                    <p>O Cliente fazendo o seu próprio pedido pelo smartphone, um garçom pode conseguir a atender mais
+                        mesa do antes.</p>
+
+                    <p>Ainda tem mais! Suporta pagamento online! <br /> Com taxa baixas, e nem na hora de pagar precisa do garçom!</p>
+                    <p>Muito prático não acha?</p>
+                </div>
+                <div class="col-md-5 devices">
+                    <img src="images/japedi-pay-resize.png" alt="">
+
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="content_top">
+        <div class="container">
+            <div class="row content_main">
+                <div class="app_img col-md-5">
+                    <img src="images/cloud2-resize.png" alt="">
+                </div>
+                <div class="app_desc img col-md-7">
+                    <h3>Estatísticas do seu cliente</h3>
+
+                    <p>Quando seu cliente sentar na mesa e usar o Japedi para fazer o pedido,</p>
+
+                    <p>Você irá saber oque ele gosta, qual foi a última vez que veio, e até o aniversário dele com isso
+                        pode até dar um desconto.</p>
+
+                    <p>Fora isso você pode filtrar os seus cliente pelo prato que comeu, a última que veio ao
+                        restaurante e mandar um promoção personalizada!</p>
+
+                    <p>O Japedi irá enviar essa promoção a o seu cliente.</p>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+    <div class="content_bottom">
+        <div class="container ">
+            <div class=" row devices- main">
+                <div class=" col-md-7 devices_desc">
+                    <h3>Edite o seu cardápio na hora que quiser!</h3>
+
+                    <p>Não precisa mais gastar em impressão com novo pratos ou novas promoções!</p>
+
+                    <p>O Japedi tem um painel de controle, que permite você mudar o seu cardápio quando quiser.</p>
+
+                    <p>Sem instalar nada!! Controle tudo pelo navegador que você gosta!</p>
+                </div>
+                <div class="col-md-5 devices">
+                    <img src="images/cloud2-item-resize.png" alt="">
+
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--&lt;!&ndash;-start-our story---&ndash;&gt;-->
+<!--<div class="gellery" id="gallery">-->
+<!--<div class="our-story">-->
+<!--<p>Check out</p>-->
+<!--<h4>App Gallery</h4>-->
+<!--</div>-->
+<!--<div class="group_2" id="Portfolio">-->
+<!--<div class="group_2_items">-->
+<!--<div class="container">-->
+<!--<div id="owl-demo1" class="owl-carousel">-->
+
+<!--<div class="item">-->
+<!--<div class="carousel">-->
+<!--<div class="group_2_img1">-->
+<!--<img src="images/slider.png" alt="">-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--<div class="item">-->
+<!--<div class="carousel">-->
+<!--<div class="group_2_img1">-->
+<!--<img src="images/slider.png" alt="">-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--<div class="item">-->
+<!--<div class="carousel">-->
+<!--<div class="group_2_img1">-->
+<!--<img src="images/slider.png" alt="">-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--<div class="item">-->
+<!--<div class="carousel">-->
+<!--<div class="group_2_img1">-->
+<!--<img src="images/slider.png" alt="">-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--&lt;!&ndash; Owl Carousel Assets &ndash;&gt;-->
+<!--<link href="css/owl.carousel.css" rel="stylesheet">-->
+<!--&lt;!&ndash; Owl Carousel Assets &ndash;&gt;-->
+<!--&lt;!&ndash; Prettify &ndash;&gt;-->
+<!--<script src="js/owl.carousel.js"></script>-->
+<!--<script>-->
+<!--$(document).ready(function () {-->
+
+<!--$("#owl-demo").owlCarousel({-->
+<!--items: 1,-->
+<!--lazyLoad: true,-->
+<!--autoPlay: true,-->
+<!--navigation: true,-->
+<!--navigationText: ["", ""],-->
+<!--rewindNav: true,-->
+<!--scrollPerPage: true,-->
+<!--pagination: true,-->
+<!--paginationNumbers: false-->
+<!--});-->
+
+<!--});-->
+<!--$(document).ready(function () {-->
+
+<!--$("#owl-demo1").owlCarousel({-->
+<!--items: 1,-->
+<!--lazyLoad: true,-->
+<!--autoPlay: true,-->
+<!--navigation: true,-->
+<!--navigationText: ["", ""],-->
+<!--rewindNav: true,-->
+<!--scrollPerPage: true,-->
+<!--pagination: false,-->
+<!--paginationNumbers: false-->
+<!--});-->
+
+<!--});-->
+
+<!--&lt;!&ndash;</script>&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;start-testimonials&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;-/start-text-slider---&ndash;&gt;-->
+<!--<div class="testimonials" id="testimonials">-->
+    <!--<div class="wmuSlider example1">-->
+        <!--<div class="container-flueid">-->
+            <!--<article style="position: absolute; width:64%; opacity: 0;">-->
+
+                <!--<div class=" cont span_2_of_3 client-main">-->
+                    <!--<div class="client">-->
+                        <!--<img src="images/client.png" alt="">-->
+                    <!--</div>-->
+                    <!--<div class="client-des">-->
+                        <!--<h4>Johnathan David</h4>-->
+
+                        <!--<p>Sou desenvolvedor a 15 anos, trabalho com impresas fora do Brasil</p>-->
+                        <!--<span> </span>-->
+                    <!--</div>-->
+                    <!--<div class="clearfix"></div>-->
+                <!--</div>-->
+            <!--</article>-->
+            <!--<script src="js/jquery.wmuSlider.js"></script>-->
+            <!--<script>-->
+                <!--$('.example1').wmuSlider();-->
+            <!--</script>-->
+        <!--</div>-->
+    <!--</div>-->
+<!--</div>-->
+<!--&lt;!&ndash;-//text-slider---&ndash;&gt;-->
+<!--&lt;!&ndash; //end-testimonials&ndash;&gt;-->
+<!--&lt;!&ndash;-/contact---&ndash;&gt;-->
+<div class="contact" id="contact">
+    <div class=" row newsletter">
+        <div class="col-md-6 newsletter-left">
+            <h5>Está interessado em inovar o seu restaurante?</h5>
+
+            <p>Deixe o seu email e seu nome que enviaremos novidades sobre o Japedi.</p>
+        </div>
+        <div class="col-md-6 newsletter-right">
+            <iframe src="https://docs.google.com/forms/d/1DsmhrAQuf0eKSvEnY5nDM_8b79A0G6RmrNgTDbir_K0/viewform?embedded=true" width="100%" height="750" frameborder="0" marginheight="0" marginwidth="0">読み込み中...</iframe>
+            <!--<form>-->
+                <!--<div class="col-md-3 text-box pull-left">-->
+                    <!--<input type="text" placeholder="Email"/>-->
+                <!--</div>-->
+                <!--<div class="col-md-3 text-box pull-left">-->
+                    <!--<input type="text" placeholder="Name"/>-->
+                <!--</div>-->
+                <!--<div class="clearfix"></div>-->
+                <!--<div class="con-button">-->
+                    <!--<input type="submit" onclick="myFunction()" value="SubScribe">-->
+                <!--</div>-->
+            <!--</form>-->
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</div>
+<!---//contact----->
+<!-- /footer-->
+<div class="footer">
+    <div class="footer-content">
+        <!--<div class="footer-main">-->
+            <!--<div class="footer-left col-md-6">-->
+                <!--<h6>A&W APP</h6>-->
+            <!--</div>-->
+            <!--<div class="footer-right col-md-6">-->
+                <!--<div class="footer-button"><a href="#">download</a></div>-->
+            <!--</div>-->
+            <!--<div class="clearfix"></div>-->
+        <!--</div>-->
+        <!--<div class="social-icons">-->
+            <!--<ul class="top-social-icons" list-unstyled>-->
+                <!--<li><a class="facebook simptip-position-bottom simptip-movable" data-tooltip="Facebook" href="#"> </a>-->
+                <!--</li>-->
+                <!--<li><a class="twitter simptip-position-bottom simptip-movable" data-tooltip="Twitter" href="#"> </a>-->
+                <!--</li>-->
+                <!--<li><a class="pin simptip-position-bottom simptip-movable" data-tooltip="Pintrest" href="#"> </a></li>-->
+                <!--<li><a class="youtube simptip-position-bottom simptip-movable" data-tooltip="Youtube" href="#"> </a>-->
+                <!--</li>-->
+                <!--<li><a class="vimeo simptip-position-bottom simptip-movable" data-tooltip="Vimeo" href="#"> </a></li>-->
+                <!--<div class="clearfix"></div>-->
+            <!--</ul>-->
+        <!--</div>-->
+        <div class="col-md-12 copy-right">
+            <p> &#169; 2014 All Rights Reserved &nbsp;<a href="http://www.geekylab.net">Geeky lab</a></p>
+        </div>
+    </div>
+</div>
+<!-- //footer-->
+<a href="#move-top" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"> </span></a>
+<!---smoth-scrlling---->
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('a[href^="#"]').on('click', function (e) {
+            e.preventDefault();
+            var target = this.hash,
+                    $target = $(target);
+            $('html, body').stop().animate({
+                'scrollTop': $target.offset().top
+            }, 1000, 'swing', function () {
+                window.location.hash = target;
+            });
+        });
+    });
+</script>
+<!---//smoth-scrlling---->
+
+</body>
+</html>
