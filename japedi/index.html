@@ -105,6 +105,12 @@
 
                     <p>Contrate o seu garçom digital.</p>
 
+                    <div class="shares">
+                        <span class="fb-share-button" data-href="http://geekylab.net/japedi" data-layout="button_count"></span>
+                        <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://geekylab.net/japedi/" data-text="Contrate o seu garçom digital." data-via="japedi_menu" data-hashtags="japedi">Tweet</a>
+                    </div>
+
+
                     <!--<ul class="button">-->
                         <!--<li><a href="#">Saiba mais</a></li>-->
                     <!--</ul>-->
@@ -373,19 +379,18 @@
             <!--</div>-->
             <!--<div class="clearfix"></div>-->
         <!--</div>-->
-        <!--<div class="social-icons">-->
-            <!--<ul class="top-social-icons" list-unstyled>-->
-                <!--<li><a class="facebook simptip-position-bottom simptip-movable" data-tooltip="Facebook" href="#"> </a>-->
-                <!--</li>-->
-                <!--<li><a class="twitter simptip-position-bottom simptip-movable" data-tooltip="Twitter" href="#"> </a>-->
+        <div class="social-icons">
+            <ul class="top-social-icons" list-unstyled>
+                <li><a class="twitter simptip-position-bottom simptip-movable" data-tooltip="Twitter" href="https://twitter.com/japedi_menu"> </a></li>
+                <!--<li><a class="facebook simptip-position-bottom simptip-movable" data-tooltip="Twitter" href="#"> </a>-->
                 <!--</li>-->
                 <!--<li><a class="pin simptip-position-bottom simptip-movable" data-tooltip="Pintrest" href="#"> </a></li>-->
                 <!--<li><a class="youtube simptip-position-bottom simptip-movable" data-tooltip="Youtube" href="#"> </a>-->
                 <!--</li>-->
                 <!--<li><a class="vimeo simptip-position-bottom simptip-movable" data-tooltip="Vimeo" href="#"> </a></li>-->
-                <!--<div class="clearfix"></div>-->
-            <!--</ul>-->
-        <!--</div>-->
+                <div class="clearfix"></div>
+            </ul>
+        </div>
         <div class="col-md-12 copy-right">
             <p> &#169; 2014 All Rights Reserved &nbsp;<a href="http://www.geekylab.net">Geeky lab</a></p>
         </div>
@@ -409,6 +414,17 @@
     });
 </script>
 <!---//smoth-scrlling---->
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/ja_KS/sdk.js#xfbml=1&appId=789530537752364&version=v2.0";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 
 </body>
 </html>
